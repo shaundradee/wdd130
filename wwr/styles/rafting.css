@@ -1,0 +1,92 @@
+
+:root {
+    --primary-color: #151E3f;
+    --secondary-color: #264969;
+    --accent-color1: #cb9e81;
+    --accent-color2: #fdffd0;
+}
+
+header {
+    display: block;
+    background-color: var(--primary-color);
+    padding: 0;
+}
+
+nav {
+    background-color: var(--accent-color1);
+}
+
+nav a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.hero main img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    margin: 1em;
+    padding: 1em;
+    width: 100%;
+    background-color: rgba(38, 73, 105, 0.6);
+    color: var(--accent-color2);
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+article {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    background-color: rgba(38, 73, 105, 0.6);
+    color: var(--accent-color2);
+    transform: translate(-45%, 0);
+}
+
+article img {
+    float: right;
+    margin: 10px 15px;
+}
+
+main section {
+    color: var(--primary-color);
+}
+
+footer {
+    display: block;
+}
+
+footer a {
+    text-decoration: none;
+    float: inline-end;
+    margin-inline-end: 1%;
+}
+
+.bangers-regular {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sedgwick-ave-regular {
+    font-family: "Sedgwick Ave", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pt-sans-narrow-regular {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
