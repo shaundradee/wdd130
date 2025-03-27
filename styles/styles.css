@@ -10,19 +10,30 @@
     --border-color: solid black;
 }
 
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 nav {
     background-color: var(--primary-background-color);
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: var(--foreground-text-color);
     display: block;
     padding: 20px;
+    text-decoration: none;
 }
 
 h1 {
     color: var(--primary-background-color);
+    border-bottom: 1.2px var(--border-color);
+    padding: 2px;
 }
 
 main img {
@@ -40,6 +51,8 @@ p {
 
 main {
     max-width: 840px;
+    grid-column: 2 / 3;
+    margin: 1rem;
 }
 
 aside {
@@ -48,6 +61,8 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
 }
 aside h2 {
     position: absolute;
@@ -58,8 +73,8 @@ aside img {
     width: 200px;
     height: auto;
 }
+
 footer {
-    margin-top: 25px;
     border-top: 1px var(--border-color);
     text-align: center;
 }
@@ -71,4 +86,9 @@ footer {
     padding: 1em;
     background-color: rgb(180, 209, 215);
     color: black;
+}
+
+.grid {
+   display: grid;
+   align-items: center;
 }

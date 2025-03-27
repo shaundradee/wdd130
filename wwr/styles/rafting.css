@@ -6,19 +6,31 @@
     --accent-color2: #fdffd0;
 }
 
+body {
+    background-color: var(--accent-color1);
+}
+
 header {
-    display: block;
+    display: grid;
+    grid-template-columns: 500px 400px;
+    align-items: center;
+    justify-items: center;
     background-color: var(--primary-color);
     padding: 0;
 }
 
 nav {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
     background-color: var(--accent-color1);
+    padding: 45px 55px;
 }
 
 nav a {
     color: var(--primary-color);
     text-decoration: none;
+    margin: 0 15px; 
 }
 
 .hero {
@@ -63,8 +75,17 @@ main section {
     color: var(--primary-color);
 }
 
+section {
+    text-align: center;
+}
+
 footer {
-    display: block;
+    display: inline-block;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: var(--accent-color2);
+    text-align: center;
 }
 
 footer a {
