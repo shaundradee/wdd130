@@ -159,6 +159,10 @@ footer a {
     max-height: 200px;
 }
 
+figcaption {
+    margin: 5px;
+}
+
 .mid-section {
     display: flex;
     justify-content: space-between;
