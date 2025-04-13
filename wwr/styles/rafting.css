@@ -46,7 +46,6 @@ nav a {
 }
 
 .hero h1 {
-    margin: 1em;
     padding: 1em;
     width: 100%;
     background-color: rgba(38, 73, 105, 0.6);
@@ -250,3 +249,4 @@ button {
 button:hover {
     background-color: var(--accent-color1);
 }
+
