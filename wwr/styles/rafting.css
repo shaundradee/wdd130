@@ -40,7 +40,6 @@ nav a {
 }
 
 .hero main img {
-    display: block;
     width: 100%;
     height: auto;
 }
@@ -76,7 +75,6 @@ main section {
 
 section h2 {
     background-color: rgba(253, 255, 208, 0.7);
-    border: 2px solid #ccc;
     color: var(--primary-color);
     margin: auto;
     padding-top: 10px;
@@ -106,7 +104,6 @@ footer {
     padding-left: 10px;
     padding-right: 10px;
     background-color: var(--accent-color2);
-    border: 2px solid #ccc;
     margin-top: 15px;
 }
 
