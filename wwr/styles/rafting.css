@@ -270,6 +270,11 @@ section form p {
     margin-bottom: 250px;
 }
 
+.link {
+    color: var(--secondary-color);
+    margin: 0 15px;
+}
+
 .grid-template {
     display: grid;
     grid-template-columns: repeat(12, 100px);
@@ -283,8 +288,6 @@ section form p {
 .item {
     background-color: var(--accent-color2);
     color: var(--primary-color);
-    font-size: 1rem;
-    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -310,9 +313,49 @@ section form p {
     grid-row: 6 / span 1;
 }
 
+.grid-template-trips {
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(10, 80px);
+    gap: 2px;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+
+.tripsitem1 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+.tripsitem2 {
+    grid-column: 4 / span 2;
+    grid-row: 1 / span 1;
+}
+.tripsitem3 {
+    grid-column: 1 / span 2;
+    grid-row: 4 / span 2;
+}
+.tripsitem4 {
+    grid-column: 4 / span 2;
+    grid-row: 4 / span 2;
+}
+.tripsitem5 {
+    grid-column: 1 / span 2;
+    grid-row: 7 / span 2;
+}
+.tripsitem6 {
+    grid-column: 4 / span 2;
+    grid-row: 7 / span 2;
+}
+.tripsitem7 {
+    grid-column: 7 / span 6;
+    grid-row: 2 / span 8;
+}
+
+
 
 table {
-    width: 50%;
     background-color: rgb(255, 255, 255);
     border-radius: 4px;
     overflow: hidden;
